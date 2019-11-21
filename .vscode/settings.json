@@ -4,7 +4,7 @@
     ],
     "explorer.confirmDelete": false,
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Atom One Dark",
+    "workbench.colorTheme": "Electron",
     "material-icon-theme.folders.theme": "specific",
     "files.autoSave": "afterDelay",
     "peacock.favoriteColors": [
@@ -70,7 +70,7 @@
         "vs-kubernetes.minikube-path": "/home/tarekali/.vs-kubernetes/tools/minikube/linux-amd64/minikube"
     },
     "liveServer.settings.donotShowInfoMsg": true,
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 3,
     "git.enableSmartCommit": true,
     "workbench.colorCustomizations": {},
     "editor.fontFamily": "'Fira Code'",
