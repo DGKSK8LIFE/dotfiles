@@ -1,24 +1,6 @@
-colorscheme molokai
-set background=dark
-:let g:NERDTreeWinSize=19
-set listchars=tab:>-
-set shiftwidth=4
-set softtabstop=4
-set tabstop=8
-set expandtab
-filetype indent on
-set autoindent
-set number
-inoremap " ""<left>
-inoremap ' ''<left>
-inoremap ( ()<left>
-inoremap [ []<left>
-inoremap { {}<left>
-inoremap {<CR> {<CR>}<ESC>O
-inoremap {;<CR> {<CR>};<ESC>O
-inoremap < <><left>
-let g:airline_theme = 'onedark'
-hi Normal guibg=NONE ctermbg=NONE
+execute pathogen#infect()
+
+:set relativenumber
 
 " -----------------------------------------------------
 " vim-go settings {{{
@@ -71,3 +53,26 @@ autocmd FileType go nmap <Leader>F :GoDeclsDir<CR>
 " autocmd FileType go nmap <Leader>s :GoDefStack<CR>
 autocmd FileType go nmap <Leader>p :GoChannelPeers<CR>
 
+autocmd vimenter * NERDTree
+
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | exe 'cd '.argv()[0] | endif
+
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+let g:ycm_use_clangd = 0
+
+syntax enable
+colorscheme molokai
+
+set autoindent
