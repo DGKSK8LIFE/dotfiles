@@ -75,4 +75,5 @@ let g:ycm_use_clangd = 0
 syntax enable
 colorscheme molokai
 
-set autoindent
+let g:airline_theme='dracula'
+:set autoindent
