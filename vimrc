@@ -75,6 +75,6 @@ let g:ycm_use_clangd = 0
 syntax enable
 colorscheme molokai
 
-let g:airline_theme='dracula'
+let g:airline_theme='airlineish'
 :set autoindent
 let g:airline#extensions#branch#format = 'Git_flow_branch_format
