@@ -77,3 +77,4 @@ colorscheme molokai
 
 let g:airline_theme='dracula'
 :set autoindent
+let g:airline#extensions#branch#format = 'Git_flow_branch_format
