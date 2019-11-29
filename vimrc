@@ -1,6 +1,14 @@
 execute pathogen#infect()
 
+let g:gruvbox_termcolors=16
+
+let g:gruvbox_italic=1
+
 :set relativenumber
+
+set encoding=UTF-8
+
+set termguicolors
 
 " -----------------------------------------------------
 " vim-go settings {{{
@@ -73,7 +81,7 @@ let g:syntastic_check_on_wq = 0
 let g:ycm_use_clangd = 0
 
 syntax enable
-colorscheme molokai
+colorscheme solarized8_dark 
 
 let g:airline_theme='airlineish'
 :set autoindent
@@ -124,3 +132,5 @@ let g:airline_symbols.linenr = ''
 
 let g:gtk_nocache=[0x00000000, 0xfc00ffff, 0xf8000001, 0x78000001]
 
+let g:NERDTreeHighlightFolders = 1 " enables folder icon highlighting using exact match
+let g:NERDTreeHighlightFoldersFullName = 1 " highlights the folder nam
