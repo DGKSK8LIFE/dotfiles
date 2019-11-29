@@ -1,4 +1,7 @@
 execute pathogen#infect()
+:AirlineTheme hybrid
+:q
+:q
 
 let g:gruvbox_termcolors=16
 
@@ -81,10 +84,10 @@ let g:syntastic_check_on_wq = 0
 let g:ycm_use_clangd = 0
 
 syntax enable
-colorscheme solarized8_dark 
+colorscheme molokai 
 
-let g:airline_theme='airlineish'
-:set autoindent
+let g:airline_theme='random'
+set autoindent
 
 let g:airline#extensions#branch#format = 'Git_flow_branch_format'
 
