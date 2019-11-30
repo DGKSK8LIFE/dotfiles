@@ -1,7 +1,4 @@
 execute pathogen#infect()
-:AirlineTheme hybrid
-:q
-:q
 
 let g:gruvbox_termcolors=16
 
@@ -137,3 +134,4 @@ let g:gtk_nocache=[0x00000000, 0xfc00ffff, 0xf8000001, 0x78000001]
 
 let g:NERDTreeHighlightFolders = 1 " enables folder icon highlighting using exact match
 let g:NERDTreeHighlightFoldersFullName = 1 " highlights the folder nam
+
