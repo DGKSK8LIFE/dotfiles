@@ -1,10 +1,7 @@
 {
-    "vscode_custom_css.imports": [
-        "file://home/tarekali/Desktop/programming/js, css, html/synthwave84.css"
-    ],
     "explorer.confirmDelete": false,
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Gruvbox Material Hard Dark",
+    "workbench.colorTheme": "Black Ocean",
     "material-icon-theme.folders.theme": "specific",
     "files.autoSave": "afterDelay",
     "peacock.favoriteColors": [
@@ -78,6 +75,6 @@
     "terminal.integrated.fontFamily": "monospace",
     "editor.fontWeight": "700",
     "editor.cursorStyle": "underline-thin",
-    "go.formatTool": "goimports"
+    "go.formatTool": "goimports",
+    "background.enabled": true
 }
-
