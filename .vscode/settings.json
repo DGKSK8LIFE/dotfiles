@@ -1,7 +1,7 @@
 {
     "explorer.confirmDelete": false,
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Black Ocean",
+    "workbench.colorTheme": "Wal Bordered",
     "material-icon-theme.folders.theme": "specific",
     "files.autoSave": "afterDelay",
     "peacock.favoriteColors": [
@@ -76,5 +76,5 @@
     "editor.fontWeight": "700",
     "editor.cursorStyle": "underline-thin",
     "go.formatTool": "goimports",
-    "background.enabled": true
-}
+    "background.enabled": true,
+    "liveServer.settings.donotVerifyTags": true,
