@@ -1,4 +1,4 @@
-# If you come from bash you might have to change your $PATH.
+.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
@@ -102,7 +102,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh" 
-neofetch
+neofetch --w3m --source '/home/tarekali/Pictures/download.png' 
 
 
 export NVM_DIR="$HOME/.nvm"
@@ -115,6 +115,4 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 alias postman='/home/tarekali/Postman/Postman'
 alias update='sudo apt-get update && sudo apt-get upgrade'
 alias autoremove='sudo apt-get autoremove'
-
-
 
