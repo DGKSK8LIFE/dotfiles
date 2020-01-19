@@ -1,10 +1,7 @@
 execute pathogen#infect()
 
-let g:gruvbox_termcolors=16
 
-let g:gruvbox_italic=1
-
-:set relativenumber
+:set nu! rnu! 
 
 set encoding=UTF-8
 
@@ -81,6 +78,14 @@ let g:ycm_use_clangd = 0
 syntax enable
 colorscheme wal 
 
+set splitbelow splitright
+
+" Shortcutting split navigation; saving effort:
+	map <C-h> <C-w>h
+	map <C-j> <C-w>j
+	map <C-k> <C-w>k
+	map <C-l> <C-w>l
+
 let g:airline_theme='random'
 set autoindent
 
@@ -131,4 +136,5 @@ let g:airline_symbols.linenr = ''
 let g:gtk_nocache=[0x00000000, 0xfc00ffff, 0xf8000001, 0x78000001]
 
 let g:NERDTreeHighlightFolders = 1 " enables folder icon highlighting using exact match
-let g:NERDTreeHighlightFoldersFullName = 1 " highlights the folder nam
+let g:NERDTreeHighlightFoldersFullName = 1 " highlights the folder name
+
