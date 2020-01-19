@@ -67,10 +67,10 @@
         "vs-kubernetes.minikube-path": "/home/tarekali/.vs-kubernetes/tools/minikube/linux-amd64/minikube"
     },
     "liveServer.settings.donotShowInfoMsg": true,
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 1,
     "git.enableSmartCommit": true,
     "workbench.colorCustomizations": {},
-    "editor.fontFamily": "'Fira Code'",
+    "editor.fontFamily": "JetBrains Mono",
     "editor.fontLigatures": true,
     "terminal.integrated.fontFamily": "monospace",
     "editor.fontWeight": "700",
