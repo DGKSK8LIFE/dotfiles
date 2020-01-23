@@ -118,4 +118,4 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 alias postman='/home/tarekali/Postman/Postman'
 alias update='sudo apt-get update && sudo apt-get upgrade'
 alias autoremove='sudo apt-get autoremove'
-
+alias battery='acpi -ib'
