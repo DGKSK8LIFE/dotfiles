@@ -1,2 +1,2 @@
 # dotfiles
-all my linux ricing dotfiles; enjoy!
+All my linux ricing dotfiles; enjoy!
