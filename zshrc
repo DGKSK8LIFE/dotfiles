@@ -102,11 +102,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh" 
-hsetroot -extend '/home/tarekali/Pictures/halas.jpeg'
+./polybarstart
 
 (cat ~/.cache/wal/sequences &)
-
-neofetch
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
