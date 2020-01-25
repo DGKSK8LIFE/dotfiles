@@ -102,7 +102,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh" 
-hsetroot -extend '/home/tarekali/Pictures/tri.jpg'
+hsetroot -extend '/home/tarekali/Pictures/halas.jpg'
 
 (cat ~/.cache/wal/sequences &)
 
