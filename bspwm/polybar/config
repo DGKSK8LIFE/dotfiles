@@ -145,14 +145,14 @@ type = custom/text
 content = 
 content-padding = 2
 content-foreground = ${color.fg-alt}
-click-left = xdg-open https://www.google.com/ 
+click-left = xdg-open https://www.duckduckgo.com/ 
 
 [module/github]
 type = custom/text
 content = 
 content-padding = 2
 content-foreground = ${color.fg-alt}
-click-left = xdg-open https://www.duckduckgo.com/ 
+click-left = xdg-open https://www.github.com/ 
 
 [module/reddit]
 type = custom/text
