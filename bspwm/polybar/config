@@ -152,7 +152,7 @@ type = custom/text
 content = 
 content-padding = 2
 content-foreground = ${color.fg-alt}
-click-left = xdg-open https://www.github.com/ 
+click-left = xdg-open https://www.duckduckgo.com/ 
 
 [module/reddit]
 type = custom/text
@@ -160,13 +160,6 @@ content = 
 content-padding = 2
 content-foreground = ${color.fg-alt}
 click-left = xdg-open https://www.reddit.com/
-
-[module/facebook]
-type = custom/text
-content = 
-content-padding = 2
-content-foreground = ${color.fg-alt}
-click-left = xdg-open https://www.facebook.com/
 
 [module/youtube]
 type = custom/text
@@ -193,13 +186,6 @@ label-song-maxlen = 25
 label-song-ellipsis = true
 
 ;==========================================================
-
-[module/pkg]
-type = custom/script
-exec = updates.sh
-format-background = ${color.shade7}
-format-padding = 2
-tail = true
 
 [module/battery]
 type = internal/battery
@@ -263,7 +249,7 @@ ramp-volume-5 = 墳
 ramp-volume-6 = 墳
 
 [module/network]
-type = custom/script
+type = internal/network 
 exec = check-network
 format-background = ${color.shade4}
 format-padding = 2
