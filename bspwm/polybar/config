@@ -142,7 +142,7 @@ label-occupied-foreground = ${color.coccupied}
 
 [module/google]
 type = custom/text
-content = 
+content = "duckduckgo"
 content-padding = 2
 content-foreground = ${color.fg-alt}
 click-left = xdg-open https://www.duckduckgo.com/ 
