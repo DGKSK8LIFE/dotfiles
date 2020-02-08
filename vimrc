@@ -76,7 +76,7 @@ let g:syntastic_check_on_wq = 0
 let g:ycm_use_clangd = 0
 
 syntax enable
-colorscheme wal 
+colorscheme gruvbox-material
 
 set splitbelow splitright
 
@@ -86,7 +86,7 @@ set splitbelow splitright
 	map <C-k> <C-w>k
 	map <C-l> <C-w>l
 
-let g:airline_theme='wal'
+let g:airline_theme='gruvbox-material'
 set autoindent
 
 let g:airline#extensions#branch#format = 'Git_flow_branch_format'
