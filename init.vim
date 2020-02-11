@@ -8,7 +8,7 @@ set encoding=UTF-8
 let g:deoplete#enable_at_startup = 1
 
 
-# python autocomplete settings:
+" python autocomplete settings:
 g:deoplete#sources#jedi#statement_length = 50
 g:deoplete#sources#jedi#enable_typeinfo = 1
 g:deoplete#sources#jedi#show_docstring = 1
