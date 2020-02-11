@@ -17,6 +17,8 @@ g:deoplete#sources#jedi#enable_typeinfo = 1
 " let g:go_term_enabled=1 " run commands in a terminal rather than the quickfix window
 " let g:go_term_mode="split"
 " let g:go_updatetime=1500
+let g:deoplete#sources#go#gocode_binary = '~/.vim/bundle/vim-gocode'
+let g:deoplete#sources#go#sort_class = ['package', 'func', 'type', 'var', 'const]
 let g:go_fmt_command = "goimports" " use goimports rather than gofmt on save
 " let g:go_highlight_operators  = 1
 " guru is spewing errors so disabled
