@@ -1,6 +1,6 @@
 # dotfiles
 
-All my linux ricing dotfiles; enjoy!
+The files that power my rice; enjoy!
 
 ## Rice Images
 
