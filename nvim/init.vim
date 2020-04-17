@@ -8,7 +8,6 @@ filetype plugin indent on
 set encoding=UTF-8
 
 let g:deoplete#enable_at_startup = 1
-let g:used_javascript_libs = 'react'
 
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
@@ -29,8 +28,8 @@ let g:syntastic_check_on_wq = 1
 " let g:go_term_enabled=1 " run commands in a terminal rather than the quickfix window
 " let g:go_term_mode="split"
 " let g:go_updatetime=1500
-let g:deoplete#sources#go#gocode_binary = '~/.vim/bundle/vim-gocode'
-let g:deoplete#sources#go#sort_class = ['package', 'func', 'type', 'var', 'const']let g:go_fmt_command = "goimports" " use goimports rather than gofmt on save
+let g:deoplete#sources#go#sort_class = ['package', 'func', 'type', 'var', 'const']
+let g:go_fmt_command = "goimports" " use goimports rather than gofmt on save
 " let g:go_highlight_operators  = 1
 " guru is spewing errors so disabled
 let g:go_info_mode="guru"
@@ -57,10 +56,7 @@ let g:go_metalinter_command='golangci-lint'
 let g:go_snippet_case_type = "camelcase"
 let g:go_test_show_name = 1
 autocmd Filetype go command! -bang A call go#alternate#Switch(<bang>0, 'edit')
-autocmd Filetype go command! -bang AV call go#alternate#Switch(<bang>0, 'vsplit')
-autocmd Filetype go command! -bang AS call go#alternate#Switch(<bang>0, 'split')
-autocmd Filetype go command! -bang AT call go#alternate#Switch(<bang>0, 'tabe')
-autocmd FileType go nmap <buffer> <leader>e <plug>(go-rename)
+autocmd Filetype go command! -bang AV call go#alternate#Switch(<bang>0, 'vsplit') autocmd Filetype go command! -bang AS call go#alternate#Switch(<bang>0, 'split') autocmd Filetype go command! -bang AT call go#alternate#Switch(<bang>0, 'tabe') autocmd FileType go nmap <buffer> <leader>e <plug>(go-rename)
 autocmd FileType go nmap <buffer> <leader>i <plug>(go-info)
 autocmd FileType go nmap <buffer> <leader>d <plug>(go-describe)
 au FileType go nmap <Leader>s <Plug>(go-def-split)
@@ -87,23 +83,17 @@ set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-
-let g:ycm_use_clangd = 0
-
 syntax enable
 colorscheme gruvbox-material 
+set background=dark
 
 set splitbelow splitright
 
 " Shortcutting split navigation; saving effort:
-        map <C-h> <C-w>h
-        map <C-j> <C-w>j
-        map <C-k> <C-w>k
-        map <C-l> <C-w>l
+	map <C-h> <C-w>h
+	map <C-j> <C-w>j
+	map <C-k> <C-w>k
+	map <C-l> <C-w>l
 
 let g:airline_theme='gruvbox-material'
 set autoindent
