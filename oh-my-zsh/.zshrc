@@ -117,3 +117,5 @@ alias autoremove='sudo apt-get autoremove'
 alias battery='acpi -ib'
 alias vi='nvim'
 alias vim='nvim'
+
+tmux
